@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        /* General Reset */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            height: 100%; /* Ensure body takes full height */
+        }
+
+        section {
+            position: relative;
+            height: 100vh; /* Full height of the viewport */
+            background-image: url 'images/bg.jpg'; /* Background image */
+            background-size: cover; /* Cover the entire section */
+            background-position: center; /* Center the background image */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            color: white; /* Default text color */
+        }
+
+        .main {
+            position: relative;
+            z-index: 2; /* In front of the background image */
+            padding: 60px 20px; /* Add padding for breathing space */
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            border-radius: 10px; /* Rounded corners for the main div */
+            max-width: 800px; /* Limit the width for better readability */
+            text-align: center; /* Center text for better alignment */
+        }
+
+        .men_text h1 {
+            font-size: 2.5em; /* Large heading */
+            margin: 10px 0;
+        }
+
+        .men_text span {
+            color: #ffcc00; /* Highlighted color for 'Delight' */
+        }
+
+        .main p {
+            font-size: 1.2em; /* Readable paragraph size */
+            line-height: 1.5; /* Line height for readability */
+            margin: 20px 0;
+        }
+
+        .main_btn {
+            margin-top: 30px;
+        }
+
+        .main_btn button {
+            background: #ff5722; /* Button background color */
+            color: white;
+            border: none;
+            border-radius: 5px; /* Rounded button corners */
+            padding: 10px 20px; /* Button padding */
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s; /* Smooth background transition */
+        }
+
+        .main_btn button:hover {
+            background: #e64a19; /* Darker shade on hover */
+        }
+
+        .media {
+            margin-top: 20px;
+        }
+
+        .media i {
+            margin: 0 15px; /* Spacing between icons */
+            color: white; /* Icon color */
+            font-size: 1.5em; /* Icon size */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        .media i:hover {
+            color: #ffcc00; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div class="main">
+            <div class="men_text">
+                <p>Searching for Your</p>
+                <h1>Next Bite of<span> Delight?</span></h1>
+                <p>It's Right Here!</p>
+            </div>
+
+            <p>
+                Welcome to our culinary haven, where every bite is a journey of delight. From sizzling street food sensations to exquisite fine dining creations, our passionate chefs infuse each dish with love. Explore a world of taste, where authenticity meets innovation, and indulge in gastronomic adventures. Join us and let your taste buds revel in the extraordinary – your next delight awaits, right here in our food paradise.
+            </p>
+
+            <div class="main_btn">
+                <button type="button"><a href="#" style="color: white; text-decoration: none;">Order Now</a></button>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+    </section>
+ 
+</body>
+</html>

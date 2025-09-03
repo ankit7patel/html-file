@@ -1,0 +1,66 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#colorBox {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#numberBox {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+#timer {
+    font-size: 18px;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#greenBtn {
+    background-color: green;
+    color: white;
+}
+
+#redBtn {
+    background-color: red;
+    color: white;
+}
